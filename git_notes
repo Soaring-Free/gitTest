@@ -7,7 +7,8 @@ GIT notes
 5.git log -n8 --graph
 6.git diff -- file_name 查看工作目录与暂存区目录区别 
 7.git diff --cached -- file_name 查看暂存区与当前commit区别
-8.git diff commit1 commit2 -- file_name 
+8.git diff commit1 commit2 -- file_name
+9.git commit -am'desc' 添加并提交
 二. .get 目录探秘
 1.HEAD 指定当前分支commit
 2.objecs/ 存放对象(commit、tree、blob)
@@ -17,6 +18,8 @@ GIT notes
 1.git checkout -b 新分支
 2.git branche -av 查看分支
 3.分头指针: git checkout 某个commit
+4.git branche -d 分支名 删除分支
+5.git branche -D 分支名 强制删除分支
 四.修改操作
 1.git mv file_name file_name_new 修改文件名
 2.git rm file_name 删除文件
