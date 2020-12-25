@@ -28,4 +28,4 @@ GIT notes
 3.git rebase -i 修改commit msg 合并commit等
 4.git reset HEAD file_name 回退暂存区
 5.git checkout file_name 回退工作区
-6.git reset -hard -- file_name commit回退
+6.git reset --hard -- file_name commit回退
