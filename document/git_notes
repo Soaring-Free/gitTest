@@ -36,3 +36,9 @@ git stash apply 弹出存储，不清空临时存储
 git stash pop 弹出存储，清空临时存储
 六.ignore 忽略配置
 1. 文件名为.ignore
+七.远程备份协议
+1.本地协议：哑协议 智能协议(file://)
+2.git remote -v 查看是否有远程仓库
+3.git remote add 分支名 远程git地址
+
+
