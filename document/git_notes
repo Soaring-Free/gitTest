@@ -42,3 +42,4 @@ git stash pop 弹出存储，清空临时存储
 3.git remote add 远程名 远程git地址
 4.--set-upstream 远程名 分支名
 5.git push 远程名
+6.git remote rm 远程名
