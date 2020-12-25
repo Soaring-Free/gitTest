@@ -29,3 +29,8 @@ GIT notes
 4.git reset HEAD file_name 回退暂存区
 5.git checkout file_name 回退工作区
 6.git reset --hard -- file_name commit回退
+五.临时存储(stash)
+git stash 临时存储
+git stash list 查询临时存储
+git stash apply 弹出存储，不清空临时存储
+git stash pop 弹出存储，清空临时存储
