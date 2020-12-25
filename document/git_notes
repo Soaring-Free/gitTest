@@ -14,6 +14,8 @@ GIT notes
 2.objecs/ 存放对象(commit、tree、blob)
 3.config 配置 local 级别属性
 4.refs/ 分支信息
+5.git cat-file -t 156775c34b  查看对象类型
+6.git cat-file -p 156775c34b 查看对象内容
 三.分支操作
 1.git checkout -b 新分支
 2.git branche -av 查看分支
