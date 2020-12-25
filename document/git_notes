@@ -9,7 +9,7 @@ GIT notes
 7.git diff --cached -- file_name 查看暂存区与当前commit区别
 8.git diff commit1 commit2 -- file_name
 9.git commit -am'desc' 添加并提交
-二. .get 目录探秘
+二..get 目录探秘
 1.HEAD 指定当前分支commit
 2.objecs/ 存放对象(commit、tree、blob)
 3.config 配置 local 级别属性
