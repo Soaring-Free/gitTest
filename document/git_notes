@@ -43,3 +43,6 @@ git stash pop 弹出存储，清空临时存储
 4.--set-upstream 远程名 分支名   远程名与分支相关联
 5.git push 远程名
 6.git remote rm 远程名
+7.git pull remotename branchname ->相当于  git fetch 和 git merge
+8.git merge --abort 将分支恢复到拉取之前
+9.git merge remotename/branchname
