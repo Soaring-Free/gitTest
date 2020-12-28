@@ -40,6 +40,6 @@ git stash pop 弹出存储，清空临时存储
 1.本地协议：哑协议 智能协议(file://)
 2.git remote -v 查看是否有远程仓库
 3.git remote add 远程名 远程git地址
-4.--set-upstream 远程名 分支名
+4.--set-upstream 远程名 分支名   远程名与分支相关联
 5.git push 远程名
 6.git remote rm 远程名
